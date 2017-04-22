@@ -1,0 +1,62 @@
+body {margin:0; padding:0; font:12px 'Arial',"\5B8B\4F53",san-serif;background:#fff;}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{padding:0; margin:0;}
+table,td,tr,th{font-size:12px;}
+li{list-style-type:none;}
+img{vertical-align:top;border:0;}
+ol,ul {list-style:none;}
+h1,h2,h3,h4,h5,h6 {font-size:12px; font-weight:normal;}
+address,cite,code,em,th {font-weight:normal; font-style:normal;}
+.fB{font-weight:bold;}
+.f12px{font-size:12px;}
+.f14px{font-size:14px;}
+.left{float:left;}
+.right{float:right;}
+/*nav*/
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height:.98rem;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    align-content:flex-start;
+    opacity:0.87;
+    background:#ffffff;
+}
+.footer>section{
+    flex: 1;
+    height: .98rem;
+    cursor: pointer;
+}
+.footer p{
+    font-family:PingFangSC-Regular;
+    padding-top: .12rem;
+    font-size:.2rem;
+    color:#9c9c9c;
+    letter-spacing:1.59px;
+    line-height:.2rem;
+    text-align:center;
+}
+.footer img{
+    margin-top: .15rem;
+}
+.nav1_img{
+    width: .48rem;
+    height: .44rem;
+    margin-left: .7rem;
+}
+.nav2_img{
+    width: .44rem;
+    height: .44rem;
+    margin-left: .72rem;
+}
+.nav3_img{
+    width: .38rem;
+    height: .44rem;
+    margin-left: .76rem;
+}
+.nav4_img{
+    width: .42rem;
+    height: .44rem;
+    margin-left: .73rem;
+}
